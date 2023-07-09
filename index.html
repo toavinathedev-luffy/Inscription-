@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+    
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="main.js" method="post">
+   <div id="form-content">
+    <div>
+      <label for="nom">nom</label><br>
+      <input type="text" name="nom" id="nom" value="" placeholder="donnez votre nom"/>
+      
+    </div>
+    <div>
+      
+      <label for="prenom">
+        prenom
+      </label><br>
+      <input 
+      type="text" name="prenom" 
+      id="prenom" placeholder="prenom"/>
+      
+    </div>
+    <div>
+      <label for="dateDeNaissance">
+        date De Naissance
+      </label><br>
+      <input type="date" name="dateDeNaissance" id="dateDeNaissance"/>
+    </div>
+    <div>
+      <label for="sexe">sexe</label>
+      <select name="sexe" id="sexe">
+        <option value="homme">
+          homme
+        </option>
+        <option value="femme">
+          femme
+        </option>
+        <option value="autre">
+          autre
+        </option>
+      </select>
+    </div>
+     
+  </div>
+    <button id="next">next</button>
+    <input type="submit" name="submit" id="submit" value="submit" />
+      
+  </form>
+  <!-- Project -->
+  <script src="./script/main.js"></script>
+</body>
+</html>
